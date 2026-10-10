@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "scoutkit",
+  "version": "${version}",
+  "name": "ScoutKit",
+  "description": "Player ESP, activity/mined-chunk visualizer and freecam with a toggle menu.",
+  "environment": "client",
+  "entrypoints": { "client": ["com.example.scoutkit.ScoutKitClient"] },
+  "mixins": ["scoutkit.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

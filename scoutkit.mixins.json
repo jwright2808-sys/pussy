@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.example.scoutkit.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "CameraMixin",
+    "EntityMixin",
+    "MinecraftClientMixin",
+    "ClientPlayNetworkHandlerMixin"
+  ],
+  "injectors": { "defaultRequire": 1 }
+}
